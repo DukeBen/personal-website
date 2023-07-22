@@ -1,11 +1,13 @@
-import React from "react";
-import Navbar from "../Components/NavBar";
+import React, { useState } from "react";
+import { slide as Menu } from "react-burger-menu";
 import "./Home.scss";
+import Sidebar from '../Components/Sidebar';
 const Home = () => {
+
   return (
-    <>
-      <Navbar />
-      <div className="homeContainer">
+    <div id = "outer-container">
+      <Sidebar pageWrapId={'page-wrap'} outerContainerId = {'outer-container'}/>
+      <div className="homeContainer" id = 'page-wrap'>
         <img
           src={require("../Data/website-picture.png")}
           alt="headshot"
@@ -37,7 +39,7 @@ const Home = () => {
           </a>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
