@@ -4,7 +4,7 @@ import './Sidebar.css';
 
 export default props => {
   return (
-    <Menu>
+    <Menu {...props}>
       <a className="menu-item" href="/">
         Home
       </a>

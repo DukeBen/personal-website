@@ -6,8 +6,8 @@ const Home = () => {
 
   return (
     <div id = "outer-container">
-      <Sidebar pageWrapId={'page-wrap'} outerContainerId = {'outer-container'}/>
-      <div className="homeContainer" id = 'page-wrap'>
+      <Sidebar className = 'sidebar' pageWrapId={'page-wrap'} outerContainerId = {'outer-container'}/>
+      <main className="homeContainer" id = 'page-wrap'>
         <img
           src={require("../Data/website-picture.png")}
           alt="headshot"
@@ -38,7 +38,7 @@ const Home = () => {
             <i className="fa fa-envelope"></i>
           </a>
         </div>
-      </div>
+      </main>
     </div>
   );
 };
