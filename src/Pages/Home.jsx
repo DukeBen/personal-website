@@ -6,7 +6,6 @@ const Home = () => {
 
   return (
     <div id = "outer-container">
-      <Sidebar className = 'sidebar' pageWrapId={'page-wrap'} outerContainerId = {'outer-container'}/>
       <main className="homeContainer" id = 'page-wrap'>
         <img
           src={require("../Data/website-picture.png")}
