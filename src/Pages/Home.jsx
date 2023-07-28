@@ -5,8 +5,8 @@ import Sidebar from '../Components/Sidebar';
 const Home = () => {
 
   return (
-    <div id = "outer-container">
-      <main className="homeContainer" id = 'page-wrap'>
+    <div >
+      <main className="homeContainer" >
         <img
           src={require("../Data/website-picture.png")}
           alt="headshot"
