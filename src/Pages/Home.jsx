@@ -1,9 +1,26 @@
 import React, { useState, useEffect} from "react";
 import { Link } from "react-scroll";
+import { TypeAnimation } from 'react-type-animation';
 import "./Home.scss";
 const Home = () => {
 
   const [hover, setHover] = useState(false);
+  const ref = React.createRef(); // HTMLSpanElement because 'span' is the default wrapper element of the <TypeAnimation/> component
+ 
+  const CURSOR_CLASS_NAME = 'custom-type-animation-cursor';
+  
+  const showCursorAnimation = (show) => {
+  if (!ref.current) {
+  return;
+  }
+  
+  const el = ref.current;
+  if (show) {
+  el.classList.add(CURSOR_CLASS_NAME);
+  } else {
+  el.classList.remove(CURSOR_CLASS_NAME);
+  }
+  };
   return (
     <div >
       <main className="homeContainer" >
@@ -12,7 +29,15 @@ const Home = () => {
           alt="headshot"
           className="headshot"
         />
-        <h1 className="name">Benjamin Goldfried</h1>
+        <TypeAnimation 
+            className = {CURSOR_CLASS_NAME}
+            ref={ref}
+            cursor={false}
+            sequence = {[1500, 'Benjamin Goldfried',
+            () => showCursorAnimation(false)
+            ]}
+            style = {{fontSize: '2em', fontWeight: 'bold', marginTop: '18.72px'}}
+            speed = {25}/>
         <h3 className="major">CS @ Duke University</h3>
         <div className="logoContainer">
           <a
