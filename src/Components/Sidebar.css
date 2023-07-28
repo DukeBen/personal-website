@@ -53,14 +53,14 @@
   /* Wrapper for item list */
   .bm-item-list {
     color: #b8b7ad;
-    padding: 0.8em;
+    padding: 1.8em;
   }
   
   /* Individual item */
   .bm-item {
     display: inline-block;
     color: #d1d1d1;
-  margin-bottom: 10px;
+  margin-bottom: 26px;
   text-align: left;
   text-decoration: none;
   transition: color 0.2s;

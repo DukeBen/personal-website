@@ -9,13 +9,13 @@ export default props => {
         Home
       </a>
       <a className="menu-item" href="#about">
-        Salads
+        About
       </a>
-      <a className="menu-item" href="/pizzas">
-        Pizzas
+      <a className="menu-item" href="#workExperience">
+        Work Experience
       </a>
-      <a className="menu-item" href="/desserts">
-        Desserts
+      <a className="menu-item" href="#projects">
+        Projects
       </a>
     </Menu>
   );
