@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import { slide as Menu } from "react-burger-menu";
+import React, { useState, useEffect} from "react";
+import { Link } from "react-scroll";
 import "./Home.scss";
-import Sidebar from '../Components/Sidebar';
 const Home = () => {
 
+  const [hover, setHover] = useState(false);
   return (
     <div >
       <main className="homeContainer" >
@@ -36,6 +36,24 @@ const Home = () => {
           >
             <i className="fa fa-envelope"></i>
           </a>
+        </div>
+        <div className="chevron animated">
+            <p style = {{fontSize: '20px', marginBottom: '10px'}}>Scroll down</p>
+            <Link 
+                    style={{cursor: "pointer"}}
+                    activeClass="active"
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration= {1500}
+                >
+                    <i 
+                      className={`fa-solid fa-chevron-down fa-xl ${hover ? 'hovered' : 'not-hovered'}`}
+                      onMouseEnter = {() => setHover(true)}
+                      onMouseLeave = {() => setHover(false)}
+                    ></i>
+                </Link>
         </div>
       </main>
     </div>
