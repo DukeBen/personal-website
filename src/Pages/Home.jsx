@@ -1,7 +1,7 @@
 import React, { useState, useEffect} from "react";
 import { Link } from "react-scroll";
 import { TypeAnimation } from 'react-type-animation';
-import "./Home.scss";
+import "./Home.css";
 const Home = () => {
 
   const [hover, setHover] = useState(false);
