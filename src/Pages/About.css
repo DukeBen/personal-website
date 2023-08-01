@@ -6,7 +6,6 @@
 .aboutContainer{
     background-color: rgb(250, 250, 250);
     width: 900px;
-    height: 100vh;
     border-radius: 5%;
     display: flex;
     flex-direction: column;
@@ -23,7 +22,7 @@
 }
 
 .containerStyles{
-    width: 500px;
-    height: 280px;
+    width: 400px;
+    height: 224px;
     margin: 65px auto;
 }
