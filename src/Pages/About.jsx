@@ -1,7 +1,9 @@
 import "./About.css";
 import ImageSlider from "../Components/ImageSlider";
 import profPic from '../Data/website-picture.png'
-import DukeLogo from '../Data/Duke-Blue-Devils-logo.png'
+import DukeLogo from '../Data/duke-logo.png'
+import onePieceLogo from '../Data/one-piece.jpg'
+import duneLogo from '../Data/dune.jpg'
 const About = () => {
 
     const slides = [
@@ -11,6 +13,14 @@ const About = () => {
         },
         {url: DukeLogo,
         title: 'Duke-logo'},
+        {
+            url: onePieceLogo,
+            title: 'one-piece-logo'
+        },
+        {
+            url: duneLogo,
+            title: 'dune-logo'
+        }
     ]
     return (
     <>
@@ -24,7 +34,7 @@ const About = () => {
           University studying Computer Science with a minor in Mathematics. This
           past summer I worked as a Software Engineer Intern at a video software
           startup called
-          <a target="_blank" href="https://www.blings.io/">
+          <a className = 'inline-link' target="_blank" href="https://www.blings.io/">
             {" "}
             Blings.io
           </a>{" "}

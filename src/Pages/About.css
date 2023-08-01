@@ -17,12 +17,13 @@
 .aboutContent{
     margin: 20px;
     width: 750px;
-    font-size: large;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    letter-spacing: 0.04em;
+    line-height: 1.7em
 }
 
 .containerStyles{
     width: 500px;
     height: 280px;
-    margin: 0 auto;
+    margin: 65px auto;
 }

@@ -2,6 +2,8 @@ body{
     background-color: #72A0C1;
     height: 100%;
     margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 #outerContainer{
@@ -27,4 +29,11 @@ section{
     width: 100vw;
     background-size: 100% 100%;  /* Full width and height */
 
+}
+
+.inline-link{
+    text-decoration: none; /* Removes underline */
+    color: inherit; 
+    padding-bottom: 2px;
+    border-bottom: 1px solid black;
 }
