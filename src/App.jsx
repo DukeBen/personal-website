@@ -19,6 +19,7 @@ function App() {
           <section id = 'home'>
             <Home />
           </section>
+          <div className="gradient"></div>
           <section id = 'about'>
             <About />
           </section>
