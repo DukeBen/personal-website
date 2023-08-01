@@ -1,0 +1,28 @@
+#about{
+    background-color: #ECECEC;
+    padding: 75px 0px;
+}
+
+.aboutContainer{
+    background-color: rgb(250, 250, 250);
+    width: 900px;
+    height: 100vh;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.aboutContent{
+    margin: 20px;
+    width: 750px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.containerStyles{
+    width: 500px;
+    height: 280px;
+    margin: 0 auto;
+}
