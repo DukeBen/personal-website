@@ -1,6 +1,7 @@
 import React, { useState, useEffect} from "react";
 import { Link } from "react-scroll";
 import { TypeAnimation } from 'react-type-animation';
+import profPic from '../Data/website-picture.png'
 import "./Home.css";
 const Home = () => {
 
@@ -25,7 +26,7 @@ const Home = () => {
     <div >
       <main className="homeContainer" >
         <img
-          src={require("../Data/website-picture.png")}
+          src={profPic}
           alt="headshot"
           className="headshot"
         />
