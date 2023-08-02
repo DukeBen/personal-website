@@ -1,2 +1,3 @@
-# personal-website
->>>>>>> 2acd692e3a8b0e3fb5f0d53535105d90a9059a29
+# Ben's Personal Website
+This website was made with React.js in the summer of 2023.  
+It was also made with lots of love <3
