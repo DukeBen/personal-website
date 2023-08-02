@@ -11,17 +11,6 @@
         padding: 2em;
 }
 
-.blingsPictures{
-    width: 20em;
-    height: auto;
-    margin-right: .5em;
-}
-
-.blingsPictures:hover {
-    transition: ease-in-out .3s;
-    transform: scale(1.6); /* This will scale the size of the image by 120% */
-  }
-
   .workImageSliderContainer{
 
         width: 650px;
