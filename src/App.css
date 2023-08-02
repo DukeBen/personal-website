@@ -1,11 +1,12 @@
 body{
-    background-color: #72A0C1;
+    background-color: #565f67;
     height: 100%;
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
-
 }
 
+  
+/* blue color: #72A0C1*/
 #outerContainer{
     width:100%;
 }
@@ -17,15 +18,15 @@ h1{
     font-size: 2.5em;
 }
 section{
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
 .gradient{
-    background: linear-gradient( #72A0C1, #ECECEC);
+    background: linear-gradient( #565f67, #ECECEC);
     background-attachment: fixed;
     height: 50px;
-    width: 100vw;
+    width: 100%;
     background-size: 100% 100%;  /* Full width and height */
 
 }
