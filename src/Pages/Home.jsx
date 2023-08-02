@@ -35,7 +35,7 @@ const Home = () => {
             ref={ref}
             cursor={false}
             sequence = {[1500, 'Benjamin Goldfried',
-            () => showCursorAnimation(false)
+            //() => showCursorAnimation(false)
             ]}
             style = {{fontSize: '2em', fontWeight: 'bold', marginTop: '18.72px'}}
             speed = {25}/>
@@ -63,7 +63,7 @@ const Home = () => {
             <i className="fa fa-envelope"></i>
           </a>
         </div>
-        <div className="chevron animated">
+        <div className="chevron">
             <p style = {{fontSize: '20px', marginBottom: '10px'}}>Scroll down</p>
             <Link 
                     style={{cursor: "pointer"}}

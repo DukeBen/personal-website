@@ -38,15 +38,10 @@
     position: absolute;
     bottom: 4%;
     width: 100%;
-    animation-delay: 1.5s;
     text-align: center;
+    animation: fadeInUp 1s both 1.5s, bounceAnimation 5s infinite 4s;
 }
 
-.animated{
-    animation-duration: 1s;
-    animation-name: fadeInUp;
-    animation-fill-mode: both;
-}
 
 @keyframes fadeInUp{
     from{
@@ -58,7 +53,26 @@
         transform: translateY(0);
     }
 }
-
+@keyframes bounceAnimation{
+    0% { transform: translateY(0); }
+  3%, 9% { transform: translateY(-80px); } /* 1st bounce, adjusted height */
+  6%, 12% { transform: translateY(0); }
+  13.5%, 15% { transform: translateY(-50px); } /* 2nd bounce, adjusted height */
+  15%, 16% { transform: translateY(0); }
+  17.5%, 18.5% { transform: translateY(-33px); } /* 3rd bounce, adjusted height */
+  18%, 19.5% { transform: translateY(0); }
+  20%, 21% { transform: translateY(-22px); } /* 4th bounce, adjusted height */
+  21%, 22% { transform: translateY(0); }
+  22.5%, 23% { transform: translateY(-14px); } /* 5th bounce, adjusted height */
+  23%, 23.5% { transform: translateY(0); }
+  24.5%, 25% { transform: translateY(-9px); } /* 6th bounce, adjusted height */
+  25%, 25.5% { transform: translateY(0); }
+  26%, 26.5% { transform: translateY(-6px); } /* 7th bounce, adjusted height */
+  26.5%, 100% { transform: translateY(0); }
+}
+.chevron:hover{
+    animation-play-state: paused;
+}
 .hovered{
     transition: transform 0.3s ease;
     transform: scale(1.5);
