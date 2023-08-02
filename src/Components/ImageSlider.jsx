@@ -59,7 +59,7 @@ const slidesContainerOverflowStyles = {
     height: "100%",
   };
 
-const ImageSlider = ({ slides, parentWidth }) => {
+const ImageSlider = ({ slides, parentWidth, timer }) => {
     const timerRef = useRef(null);
   const [currentIndex, setCurrentIndex] = useState(0);
   const goToPrevious = () => {
@@ -87,12 +87,13 @@ const ImageSlider = ({ slides, parentWidth }) => {
   })
 
   useEffect(()=>{
+    if(timer){
       if(timerRef.current){
           clearTimeout(timerRef.current);
       }
       timerRef.current = setTimeout(()=>{
           goToNext();
-      }, 3000)
+      }, 3000)}
   }, [goToNext]);
   return (
     <div style={sliderStyles}>

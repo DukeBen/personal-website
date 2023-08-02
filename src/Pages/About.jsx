@@ -52,7 +52,7 @@ const About = () => {
         </p>
 
         <div className = 'containerStyles'>
-          <ImageSlider slides={slides} parentWidth = {400} />
+          <ImageSlider slides={slides} parentWidth = {400} timer = {true}/>
         </div>
       </div>
     </>
