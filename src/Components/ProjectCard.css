@@ -1,0 +1,30 @@
+.projectContainer{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 3%;
+    color: black;
+}
+
+.projectImgContainer{
+    width: 100%;
+    object-fit: contain;
+}
+
+.projectImgContainer img {
+    width: 100%;
+    height: auto;
+
+}
+
+.projectLink{
+    width: max-content;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.projectLink:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
