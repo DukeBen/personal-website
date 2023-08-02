@@ -1,0 +1,31 @@
+#workExperience{
+    background-color: #363636;
+    color: #9c9c9c;
+    padding: 3em 0px;
+}
+
+.workContainer{
+        width: 50em;
+        display: flex;
+        flex-direction: column;
+        padding: 2em;
+}
+
+.blingsPictures{
+    width: 20em;
+    height: auto;
+    margin-right: .5em;
+}
+
+.blingsPictures:hover {
+    transition: ease-in-out .3s;
+    transform: scale(1.6); /* This will scale the size of the image by 120% */
+  }
+
+  .workImageSliderContainer{
+
+        width: 650px;
+        height: 474px;
+        margin: 2em auto;
+    
+  }
