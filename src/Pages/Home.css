@@ -39,7 +39,7 @@
     bottom: 4%;
     width: 100%;
     text-align: center;
-    animation: fadeInUp 1s both 1.5s, bounceAnimation 5s infinite 4s;
+    animation: fadeInUp 1s both 6s /*, bounceAnimation 5s infinite 4s*/;
 }
 
 

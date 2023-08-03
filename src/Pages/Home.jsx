@@ -34,11 +34,11 @@ const Home = () => {
             className = {CURSOR_CLASS_NAME}
             ref={ref}
             cursor={false}
-            sequence = {[1500, 'Benjamin Goldfried',
+            sequence = {[1500, 'Hey!', 500, 'It\'s me!', 500, 'Benjamin Goldfried',
             //() => showCursorAnimation(false)
             ]}
             style = {{fontSize: '2em', fontWeight: 'bold', marginTop: '18.72px'}}
-            speed = {25}/>
+            speed = {40}/>
         <h3 className="major">CS @ Duke University</h3>
         <div className="logoContainer">
           <a
