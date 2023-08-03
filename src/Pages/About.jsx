@@ -1,58 +1,71 @@
 import "./About.css";
 import ImageSlider from "../Components/ImageSlider";
-import profPic from '../Data/website-picture.png'
-import DukeLogo from '../Data/duke-logo.png'
-import onePieceLogo from '../Data/one-piece.jpg'
-import duneLogo from '../Data/dune.jpg'
+import profPic from "../Data/website-picture.png";
+import DukeLogo from "../Data/duke-logo.png";
+import onePieceLogo from "../Data/one-piece.jpg";
+import duneLogo from "../Data/dune.jpg";
 const About = () => {
-
-    const slides = [
-        {
-            url: profPic,
-            title: 'profile-pic'
-        },
-        {url: DukeLogo,
-        title: 'Duke-logo'},
-        {
-            url: onePieceLogo,
-            title: 'one-piece-logo'
-        },
-        {
-            url: duneLogo,
-            title: 'dune-logo'
-        }
-    ]
-    return (
+  const slides = [
+    {
+      url: profPic,
+      title: "profile-pic",
+    },
+    { url: DukeLogo, title: "Duke-logo" },
+    {
+      url: onePieceLogo,
+      title: "one-piece-logo",
+    },
+    {
+      url: duneLogo,
+      title: "dune-logo",
+    },
+  ];
+  return (
     <>
       <div className="aboutContainer">
         <h1>About Me</h1>
-        <p className="aboutContent" style = {{display: 'flex', justifyContent: 'center'}}>
-          Hey! My name is Ben Goldfried. 
-        </p>
-        <p className='aboutContent'>
-            I am currently a junior at Duke
-          University studying Computer Science with a minor in Mathematics. This
-          past summer I worked as a Software Engineer Intern at a video software
-          startup called
-          <a className = 'inline-link' target="_blank" href="https://www.blings.io/">
-            {" "}
-            Blings.io
-          </a>{" "}
-          in Tel Aviv, Israel. During this internship, I really developed my
-          React.js and Node.js skills, as well as solidified my interest in
-          creating web applications!
+        <p
+          className="aboutContent"
+          style={{ display: "flex", justifyContent: "center" }}
+        >
+          Hey! My name is Ben Goldfried.
         </p>
         <p className="aboutContent">
-          Outside of Computer Science, my hobbies include reading (just finished
-          Dune!), watching Anime (One Piece and Naruto are goated), lifting
-          weights, hanging out with friends, and traveling. This this upcoming
-          semester I will be studying abroad in Copenhagen and I could not be
-          more excited to immerse myself into a new environment and experience a
-          different culture.
+          Right now, I'm in my junior year at Duke University, studying Computer
+          Science and minoring in Mathematics. It's been a challenging yet
+          fulfilling journey so far.
+        </p>
+        <p className="aboutContent">
+          Over this past summer, I interned as a Software Engineer at a startup
+          called {" "}
+          <a
+            className="inline-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.blings.io/"
+          >
+            Blings.io
+          </a>{" "}
+          in Tel Aviv, Israel. This experience gave me a chance to enhance my
+          skills in React.js and Node.js and reaffirmed my interest in web
+          application development.
+        </p>
+        <p className="aboutContent">
+          Apart from my academic pursuits, I enjoy a variety of hobbies.
+          Recently, I finished reading Dune, and I regularly watch anime series
+          like One Piece and Naruto. I also value physical fitness and enjoy
+          weightlifting, and there's rarely a day that goes by without spending
+          time with my friends.
         </p>
 
-        <div className = 'containerStyles'>
-          <ImageSlider slides={slides} parentWidth = {400} timer = {true}/>
+        <p className="aboutContent">
+          In terms of future plans, I'm excited about studying abroad in
+          Copenhagen next semester. I'm looking forward to experiencing a new
+          culture and broadening my horizons.
+        </p>
+
+        <div className="containerStyles">
+          <ImageSlider slides={slides} parentWidth={400} timer={true} />
         </div>
       </div>
     </>
