@@ -63,6 +63,11 @@ const Home = () => {
             <i className="fa fa-envelope"></i>
           </a>
         </div>
+        <p>
+          <a class = 'resume' target = '_blank' href= './resume.pdf'>
+            Resumé {' '}
+            <i class="fa-solid fa-file"></i>          </a>
+        </p>
         <div className="chevron">
             <p style = {{fontSize: '20px', marginBottom: '10px'}}>Scroll down</p>
             <Link 
