@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.567dce10.css",
+    "main.js": "/personal-website/static/js/main.b10a56ea.js",
+    "static/media/website-picture.png": "/personal-website/static/media/website-picture.0d35cc72b618c035a303.png",
+    "static/media/website-preview.png": "/personal-website/static/media/website-preview.0c70f6d8626a902d3d1b.png",
+    "static/media/dynamic-thumbnail-changed.png": "/personal-website/static/media/dynamic-thumbnail-changed.fb8e8e186bfcfb135e8a.png",
+    "static/media/dynamic-thumbnail-default.png": "/personal-website/static/media/dynamic-thumbnail-default.c78320cf9072ef9df114.png",
+    "static/media/military-spending-proj.png": "/personal-website/static/media/military-spending-proj.e0d098e732c71b0c5c34.png",
+    "static/media/etch-a-sketch.png": "/personal-website/static/media/etch-a-sketch.c26b9452a6a5085231b4.png",
+    "static/media/duke-logo.png": "/personal-website/static/media/duke-logo.89f026c49e5a11fdf66f.png",
+    "static/media/one-piece.jpg": "/personal-website/static/media/one-piece.aded21eff5b0f765af38.jpg",
+    "index.html": "/personal-website/index.html",
+    "main.567dce10.css.map": "/personal-website/static/css/main.567dce10.css.map",
+    "main.b10a56ea.js.map": "/personal-website/static/js/main.b10a56ea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.567dce10.css",
+    "static/js/main.b10a56ea.js"
+  ]
+}
