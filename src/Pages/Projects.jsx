@@ -16,7 +16,7 @@ const Projects = () => {
         title: "Military Spending Analysis",
         projectURL: "https://github.com/DukeBen/miltary-spending-and-happiness",
         imgURL: militaryProjImg,
-        text: 'This was a group project that my friends and I created to investigate a polarizing topic between the left and right',
+        text: 'This was a group project that my friends and I created to investigate a topic that frequently makes headlines',
         createdWith: 'Created with Pandas, NumPy, and Seaborn'
       },
     {
