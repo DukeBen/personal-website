@@ -70,9 +70,7 @@
   26%, 26.5% { transform: translateY(-6px); } /* 7th bounce, adjusted height */
   26.5%, 100% { transform: translateY(0); }
 }
-.chevron:hover{
-    animation-play-state: paused;
-}
+
 .hovered{
     transition: transform 0.3s ease;
     transform: scale(1.5);
